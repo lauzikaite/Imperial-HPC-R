@@ -1,0 +1,17 @@
+---
+output:
+  github_document
+---
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      collapse = TRUE,
+                      eval = FALSE, 
+                      message =  TRUE)
+
+
+```
+
+# Practical guide to runnig R on HPC
+
+Tutorial is designed for any R user, but gives examples focus on the use of package `xcms`.
