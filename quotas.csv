@@ -1,0 +1,5 @@
+﻿Directory,Usage
+$HOME,Relativily small - 10GB of space. Intended for storing binaries and source only.
+$WORK,"Main work directorty on cx1. Intial quota 250GB, which can be extended. Intended for storing datafiles and long term storage."
+$TMPDIR,A special directory created for jobs running under the queuing system. This directoy is unique for every running job and is deleted when the job finishes.
+$SCRATCH,High performance work filesystem directly connect to cx2/cx4. Should be used for storing all data. Cx2/ax4 jobs should write directly on $SCRATCH.

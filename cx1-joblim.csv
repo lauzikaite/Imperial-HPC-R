@@ -1,0 +1,9 @@
+Job class,Number of nodes N,ncpus/node,Max mem/node,Max walltime/hr,Max number of running jobs per user
+throughput,1,1-8,96GB,up to 72hr,unlimited for jobs <=24hr in length
+general,1 - 16,16,62GB or 124GB,up to 72hr,unlimited for jobs <=24hr in length
+singlenode,1,24,124GB,up to 24hr,10
+multinode,2 - 16,12,46GB,up to 48hr,unlimited
+debug,1,1-8,96GB,up to 30 mins,1
+large memory,1,12,190 or 250GB,48 hr,unlimited
+GPU,1-1,1-4,16GB,48hr,8
+long,1,1-8,96GB,72 - 1000 hr,1

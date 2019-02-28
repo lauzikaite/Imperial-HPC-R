@@ -1,0 +1,19 @@
+HOME,WORK,TMPDIR,SCRATCH
+25GB of space which can be extended to 100GB,Main work directory on CX1. 250GB of spcace which can be extended to 1TB,Temporal directory created for CX1 running jobs,High performance $WORK filesystem for CX2/AX4
+Intended for storing binaries and source only,Intended for storing datafiles and long term storage,Is deleted when the job finishes,Intended for long-term data storage. X2/AX4 jobs should write directly to it
+/home/username,/work/username,/tmp/*,/scratch*/username
+,,,
+,,,
+HOME,25GB of space which can be extended to 100GB,,
+,Intended for storing binaries and source only,,
+,/home/username,,
+,Main work directory on CX1. 250GB of spcace which can be extended to 1TB,,
+,Intended for storing datafiles and long term storage,,
+,/work/username,,
+,Temporal directory created for CX1 running jobs,,
+,Is deleted when the job finishes,,
+,/tmp/*,,
+,,,
+WORK,,,
+TMPDIR,,,
+SCRATCH,High performance $WORK filesystem for CX2/AX4,Intended for long-term data storage. X2/AX4 jobs should write directly to it,/scratch*/username

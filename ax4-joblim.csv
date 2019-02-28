@@ -1,0 +1,4 @@
+Job class,Number of nodes N,ncpus/node,Max mem/node,Max walltime/hr
+long,1,1-7,127,100
+large,1,8-600,8000,100
+monster (will not be run),NA,NA,NA,NA

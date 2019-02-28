@@ -1,0 +1,12 @@
+Storage,Purpose
+H:drive,Access from CX1 only
+,Up to 8GB free of charge
+,For non-sensitive data only
+,Run 'module load hdrive' and 'hdrive'
+BOX,Access from CX1 only
+,Unlimited data storage with 15GB per individual datafile
+,For non-sensitive data only
+,Run 'module load box' and 'box'
+Network drives,Access from CX1/AX4
+,E.g. MED-BIO
+,Access granted to group members only

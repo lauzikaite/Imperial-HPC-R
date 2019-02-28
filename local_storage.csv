@@ -1,0 +1,13 @@
+Storage,Purpose
+$HOME,25GB of space which can be extended to 100GB
+,Intended for storing binaries and source only
+,/home/username
+$WORK,Main work directory on CX1. 250GB of spcace which can be extended to 1TB
+,Intended for storing datafiles and long term storage
+,/work/username
+$TMPDIR,Temporal directory created for CX1 running jobs
+,Is deleted when the job finishes
+,/tmp/*
+$SCRATCH,High performance $WORK filesystem for CX2/AX4
+,Intended for long-term data storage. X2/AX4 jobs should write directly to it
+,/scratch*/username

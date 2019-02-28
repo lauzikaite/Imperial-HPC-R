@@ -1,0 +1,4 @@
+CX1,AX4,CX2
+For large number of small jobs,For very large datasets,For numerically intensive jobs
+Ideally jobs should fit a single node,Consists of two systems: 160 and 1280 cores each,Reserved for parallel jobs
+Total ~1700 nodes and ~ 33000 cores,Total 16TB RAM and 1400 cores,Total ~19000 cores
