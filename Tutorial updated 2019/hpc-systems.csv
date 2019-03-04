@@ -1,0 +1,5 @@
+CX1,AX4,CX2
+For large number of small jobs,For very large memory datasets,Suitable for optimised parallel computations
+Ideally jobs should fit a single node,Consists of two systems: 160 and 1280 cores each,24 and 28 core compute nodes
+"12, 16 and 24 core nodes",Total 16TB RAM and 1400 cores,"~ 720 nodes, 17000 cores"
+Total ~1700 nodes and ~ 30000 cores,,

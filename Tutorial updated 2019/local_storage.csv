@@ -1,0 +1,17 @@
+Storage,Default working space
+$HOME,1 TB allocation (up to 10 million files)
+,"Intended for storing datafiles, scripts and long term storage"
+,/username/home
+$EPHEMERAL,Additional individual working space
+,Unlimited allocation
+,Files deleted after 30 days from creation data stamp
+,/username/ephemeral
+$TMPDIR,Default working directory for a job
+,Only exists when a job is running and deleted afterwards
+,On CX1 on a disk directly attached to a compute node
+,/tmp/*
+$PBS_O_WORKDIR,Only exists when a job is running
+,A directory from which your jobs was submitted
+$RDS_PROJECT,Your Research Data Store project allocation (if you applied for one)
+$WORK,Deprecated 12/10/2018. Moved into $HOME/WORK/
+$SCRATCH,Deprecated 12/10/2018. Moved into $HOME/SCRATCH/

@@ -1,0 +1,2 @@
+Job class,Number of nodes N,ncpus/node,Max mem/node,Max walltime/hr,Max number of jobs per user
+largemem,1,10*n,120*n GB,72 hr,50

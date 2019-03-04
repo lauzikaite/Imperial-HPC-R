@@ -1,0 +1,4 @@
+Directory	Usage
+$HOME	1 TB allocation (up to 10 million files)
+$EPHEMERAL	"Additional individual working space, Unlimited allocation, Files deleted after 30 days from creation data stamp"
+$TMPDIR	A special directory created for jobs running under the queuing system. This directoy is unique for every running job and is deleted when the job finishes.
